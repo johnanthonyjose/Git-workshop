@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-
-
 /** Return the sum of values from a to b
  *  @param a = start value
  *  @param b = final value
@@ -15,8 +13,12 @@
  */ 
 int series(int a, int b){
     //Write code here
-
-    return 0; //EDIT THIS
+	
+	int sum = 0;
+	int i;
+	
+	for (i = 0; i< (b-a+1); i++) sum = sum + (a + i);
+    return sum; //EDIT THIS
 }
 
 
