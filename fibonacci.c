@@ -17,9 +17,15 @@
  *      fibonacci(8); //21
  */
 int fibonacci(int k) {
-    //WRITE CODE HERE
-
-    return 0; // EDIT THIS
+    int t1 = 0, t2 = 1, nextTerm = 0;
+	int i;
+    for (i = 1; i < k; i++) {
+        // Prints the first two terms.
+        nextTerm = t1 + t2;
+        t1 = t2;
+        t2 = nextTerm;
+    }
+    return nextTerm; // EDIT THIS
 }
 
 
