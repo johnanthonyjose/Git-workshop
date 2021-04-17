@@ -55,4 +55,19 @@ You know that you're done when all of your codes are in the master branch.
 
 
 
+## Part 2: Merging new out-of-sync changes
 
+Now, imagine after one week, one of you (contributor X) have formulated a better approach in solving factorial. However, here's the catch: He/she started doing the work when you haven't started Part 1. Therefore, it still doesn't contain the changes you've performed in Part 1. But, you want to merge as it's more efficient (it's in the part2 branch).
+
+Make sure that you have your [Developer's git guide](https://docs.google.com/document/d/1heDkCs0eGNYjyOA3JpF64k3NtwgAFSRxz15CVEvyOaA/edit)
+
+Step 1: Assign someone on who is contributor X. and who is the maintainer.
+
+Step 2: Contributor X would send a pull request.
+
+Step 3: Maintainer would review the code. And See that it is out-of-sync.
+    - Maintainer comments out in the conversation to let contributor "rebase"
+
+Step 4: Contributor X would rebase and force push (please check the guide)
+
+Step 5: When it's already in sync, maintainer can comment his approval. Then merge it. (please check the guide)
