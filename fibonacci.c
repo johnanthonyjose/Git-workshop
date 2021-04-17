@@ -8,7 +8,7 @@
  *     Fibonacci(1) = 1
  * @param k = the kth fibonacci number
  * @return the exact value of the fibonacci number
- *  
+ *
  *  Recall: The fibonacci sequence looks like
  *      1, 1, 2, 3, 5, 8, 13, 21, 34
  *  Example:
@@ -18,8 +18,8 @@
  */
 int fibonacci(int k) {
     //WRITE CODE HERE
-
-    return 0; // EDIT THIS
+    if (k == 0 || k == 1) return 1;
+    return fibonacci(k - 1) + fibonacci(k - 2);
 }
 
 
