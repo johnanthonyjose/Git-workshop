@@ -8,7 +8,12 @@
  */
 int factorial (int n) {
     // ADD CODE HERE
-    return 0; // EDIT THIS
+    int i, factorial;
+    factorial = 1;
+    for (i=1;i<=n;i++){
+    	factorial = factorial * i;
+	}
+    return factorial; // EDIT THIS
 }
 
 
@@ -16,7 +21,7 @@ int factorial (int n) {
 int main(void) {
 
     int k=5;
-
+	
     printf("%d! = %d\n", k,factorial(k));
     k = 8;
     printf("%d! = %d\n", k,factorial(k));
