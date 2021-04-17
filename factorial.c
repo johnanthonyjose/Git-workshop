@@ -7,8 +7,12 @@
  * @return calculated result of n!
  */
 int factorial (int n) {
-    // ADD CODE HERE
-    return 0; // EDIT THIS
+    if (n > 1){
+        return n * factorial(n -1);
+    }
+    else {
+        return 1;
+    }
 }
 
 
